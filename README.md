@@ -85,7 +85,8 @@ For data retrieval, we leveraged the SELECT statement to extract information fro
 ### Sorting and Distinct Selection
 The ORDER BY clause sorted our query results for enhanced readability and analysis, specifying either ascending or descending order as necessary. To eliminate redundancy, the DISTINCT keyword ensured that only unique result sets were returned.
 
-![carbon (7)](https://github.com/user-attachments/assets/656bc1c1-55ae-488d-b8dd-95bb870505f4)
+
+![Uploading carbon (9).png…]()
 
 
 ## Use of SQL Functions for Data Manipulation
