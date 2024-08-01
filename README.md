@@ -28,10 +28,7 @@ The design of the database reflects a thoughtful approach to creating a relation
 
 ### Normalization and Schema Design
 The database was normalized up to the third normal form (3NF) to eliminate redundant data, prevent anomalies, and ensure that dependencies are logical. The schema was carefully crafted to reflect real-world relationships and constraints, making use of appropriate data types and ensuring that each table serves a clear purpose.
-
-<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/49a8b5af-8c3f-4f59-b252-ceba26ff1c32">
-
-
+<img width="957" alt="Screenshot 2024-08-01 010041" src="https://github.com/user-attachments/assets/d3f1bf2c-caa2-4e61-ba36-76b85ee8658d">
 The database schema diagram (Figure 1) illustrates the logical structure of the Healthcare Database, including entities, attributes, and relationships. This visual representation is foundational for understanding the interactions within the database and ensuring data integrity.
 
 #### Entities and Their Attributes:
@@ -60,7 +57,7 @@ The design ensures the database is normalized to the Third Normal Form (3NF) by 
 ### Database and Table Creation
 A new database named Healthcare_DB was initialized, followed by the creation of several tables essential for hospital management: Patients, Doctors, Appointments, Departments, and MedicalRecords. The tables were defined using T-SQL CREATE TABLE statements, carefully selecting appropriate data types like INT for numeric identifiers, VARCHAR for variable-length strings, and NVARCHAR for special character support. The inclusion of constraints such as NOT NULL, UNIQUE, and MAX ensured data integrity and consistency across the database.
 
-![Figure 2 showing the tables created, the data types and constraints that was applied](link_to_figure_2_image)
+![Figure 2 showing the tables created, the data types and constraints that was applied](<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/49a8b5af-8c3f-4f59-b252-ceba26ff1c32">)
 
 ### Table Modification and Enhancement
 To refine the database structure and accommodate additional information, ALTER TABLE commands were utilized to modify existing tables. Columns were added to capture crucial data such as dates of birth, gender, feedback, and allergies.
