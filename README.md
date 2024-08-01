@@ -29,8 +29,8 @@ The design of the database reflects a thoughtful approach to creating a relation
 ### Normalization and Schema Design
 The database was normalized up to the third normal form (3NF) to eliminate redundant data, prevent anomalies, and ensure that dependencies are logical. The schema was carefully crafted to reflect real-world relationships and constraints, making use of appropriate data types and ensuring that each table serves a clear purpose.
 
-![Figure 1: Healthcare Database Schema](<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/5d3d2046-5b95-40c0-989c-233962ca4d13">
-)
+<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/49a8b5af-8c3f-4f59-b252-ceba26ff1c32">
+
 
 The database schema diagram (Figure 1) illustrates the logical structure of the Healthcare Database, including entities, attributes, and relationships. This visual representation is foundational for understanding the interactions within the database and ensuring data integrity.
 
