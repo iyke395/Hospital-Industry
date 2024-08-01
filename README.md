@@ -57,31 +57,36 @@ The design ensures the database is normalized to the Third Normal Form (3NF) by 
 ### Database and Table Creation
 A new database named Healthcare_DB was initialized, followed by the creation of several tables essential for hospital management: Patients, Doctors, Appointments, Departments, and MedicalRecords. The tables were defined using T-SQL CREATE TABLE statements, carefully selecting appropriate data types like INT for numeric identifiers, VARCHAR for variable-length strings, and NVARCHAR for special character support. The inclusion of constraints such as NOT NULL, UNIQUE, and MAX ensured data integrity and consistency across the database.
 
-![Figure 2 showing the tables created, the data types and constraints that was applied](<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/49a8b5af-8c3f-4f59-b252-ceba26ff1c32">)
+<img width="960" alt="Screenshot 2024-08-01 010747" src="https://github.com/user-attachments/assets/49a8b5af-8c3f-4f59-b252-ceba26ff1c32">
 
 ### Table Modification and Enhancement
 To refine the database structure and accommodate additional information, ALTER TABLE commands were utilized to modify existing tables. Columns were added to capture crucial data such as dates of birth, gender, feedback, and allergies.
 
-![Figure 3 showing the alter commands.](link_to_figure_3_image)
+![image](https://github.com/user-attachments/assets/b780f4b9-35f9-49c0-bf91-dd6576c70f21)
 
 ## Data Population Techniques
 
 ### Insertion of Data Records
 The INSERT INTO statement was employed to populate the database tables with manual data entries. This process involved careful consideration of the data types and constraints defined during the table creation phase to ensure accurate and meaningful dataset input.
 
-![Figure 4 shows the INSERT commands.](link_to_figure_4_image)
+<img width="960" alt="Screenshot 2024-08-01 005007" src="https://github.com/user-attachments/assets/8d55ee17-71d1-44a9-9893-dce1a31c81c3">
+<img width="960" alt="Screenshot 2024-08-01 004439" src="https://github.com/user-attachments/assets/e27acf70-03bf-4223-963c-410178c9a076">
+
 
 ## Querying Skills
 
 ### Complex Query Execution
 For data retrieval, we leveraged the SELECT statement to extract information from various tables within the database. The use of JOIN clauses allowed for the merging of rows from two or more tables based on related columns, leading to flexible data access. To refine our dataset, we incorporated the WHERE clause with logical operators such as AND, OR, BETWEEN, and LIKE, alongside comparison operators to filter the results based on specified criteria.
 
-![Figure 5 shows an example of how join, where clauses with logical operators were use.](link_to_figure_5_image)
+![carbon (6)](https://github.com/user-attachments/assets/9267f998-2726-46b1-bbee-ba7c6d8671c9)
+![carbon (7)](https://github.com/user-attachments/assets/2f7719ae-f2d5-43c9-8315-db442fd60587)
+
 
 ### Sorting and Distinct Selection
 The ORDER BY clause sorted our query results for enhanced readability and analysis, specifying either ascending or descending order as necessary. To eliminate redundancy, the DISTINCT keyword ensured that only unique result sets were returned.
 
-![Figure 6: Example of sorting with ORDER BY and DISTINCT record retrieval.](link_to_figure_6_image)
+![carbon (7)](https://github.com/user-attachments/assets/656bc1c1-55ae-488d-b8dd-95bb870505f4)
+
 
 ## Use of SQL Functions for Data Manipulation
 
@@ -92,7 +97,8 @@ SQL Server provides a plethora of built-in functions to handle date and time dat
 - DATENAME: Translates the numeric representation of date parts into a textual name, like translating '1' to 'Sunday'. We utilized DATENAME to make the query results more intuitive for end-users by showing the name of the day on which appointments are booked.
 - Conversion and Formatting: Data presentation is key in reporting and analytics. The CONVERT function, for instance, allows us to change data types or format data. In the context of our database, we used CONVERT to transform date and time values into more readable formats without the fractional seconds that SQL Server includes by default.
 
-![Figure 7 shows an example of Datepart, datename and convert function usage.](link_to_figure_7_image)
+![carbon (10)](https://github.com/user-attachments/assets/2f6a5eba-56b5-4733-8be0-f7b28fbe487e)
+
 
 ## Testing Strategy
 Our testing strategy was primarily manual, focusing on verifying the accuracy and reliability of each query. We conducted thorough tests for each use case to ensure:
